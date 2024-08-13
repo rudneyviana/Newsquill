@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.adicao-noticia-secao {
+    display: flex;
+    padding: 30px 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #D9D9D9;
+    box-shadow: 4px 7px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.adicao-noticia-adicionar-nova-noticia {
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input-adicao-noticia-titulo {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px #9D9D9D;
+    background: #F2F2F2;
+}
+
+.adicao-noticia-autor {
+    align-self: stretch;
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-adicao-noticia-autor {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #9D9D9D;
+    background: #F2F2F2;
+}
+
+.adicao-noticia-data {
+    align-self: stretch;
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-adicao-noticia-data {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #9D9D9D;
+    background: #F2F2F2;
+}
+
+.adicao-noticia-imagem {
+    height: 29px;
+    align-self: stretch;
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-adicao-noticia-imagem {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #9D9D9D;
+    background: #F2F2F2;
+}
+
+.adicao-noticia-conteudo {
+    align-self: stretch;
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.caixa-conudo-adicao-noticia {
+    display: flex;
+    height: 217px;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #9D9D9D;
+    background: #F2F2F2;
+}
+
+.button {
+    display: flex;
+    min-width: 200px;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #24479E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.adicao-noticia-botao-adicionar {
+    flex: 1 0 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.detalhes-noticia-container {
+    display: flex;
+    padding: var(--tamanho-fonte-logo, 50px) 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    background: #F9F9F9;
+}
+
+.detalhes-noticia-corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.detalhes-noticia-cabecario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+}
+
+.detalhes-noticia-titulo {
+    align-self: stretch;
+    color: #1E1E1E;
+    font-family: "PT Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.detalhes-noticia-auto-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.detalhes-noticia-autor {
+    color: #1F2123;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detalhes-noticia-data {
+    color: rgba(0, 0, 0, 0.56);
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detalhe-noticia-imagem {
+    height: 578.314px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.detalhe-noticia-paragrafos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.detalhe-noticia-paragrafo {
+    align-self: stretch;
+    color: #1F2123;
+    text-align: justify;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sessao-comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.titulo-sessao-comentarios {
+    align-self: stretch;
+    color: #1F2123;
+    font-family: "PT Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sessao-comentarios-caixa-comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.comentario-area-texto {
+    display: flex;
+    width: 934px;
+    height: 219px;
+    padding: 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid #ADADAD;
+    background: #FFF;
+}
+
+.comentario-botao-enviar {
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15.74px;
+    background: #24479E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: #FFF;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.detalhes-noticia-perfil {
+    align-self: stretch;
+    color: #1F2123;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detalhes-noticia-comentario {
+    align-self: stretch;
+    color: #1F2123;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detalhes-noticia-responder {
+    align-self: stretch;
+    color: #1F52B0;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
