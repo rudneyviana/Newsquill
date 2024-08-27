@@ -2,7 +2,7 @@
 
 .detalhes-noticia-container {
     display: flex;
-    padding: var(--tamanho-fonte-logo, 50px) 300px;
+    padding: 5%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -116,11 +116,12 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
+    width: calc(100% - 10%);
 }
 
 .comentario-area-texto {
     display: flex;
-    width: 934px;
+    width: calc(100%);
     height: 219px;
     padding: 30px;
     align-items: flex-start;
