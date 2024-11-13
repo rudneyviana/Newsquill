@@ -2,84 +2,58 @@
 
 .container {
     display: flex;
-    padding: var(--tamanho-fonte-logo, 50px) 20px 0px 20px;
-    align-items: flex-start;
-    align-content: flex-start;
+    padding: 50px 20px 0px 20px;
     gap: 40px 20px;
     align-self: stretch;
     flex-wrap: wrap;
 }
 
-hr {
-    background: #989898;
-    height: 1px;
-    align-self: stretch;
-    margin-top: 40px; /*JOAO ADD ESSA LINHA*/
-    margin-bottom: 40px; /*JOAO ADD ESSA LINHA*/
-}
-
-.pagina-inicial-imagem-noticia-primaria {
+.imagem-noticia-primaria {
     display: flex;
+    align-items: flex-end;
     height: 600px;
-    min-height: 600px;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    align-self: stretch;
     border-radius: 10px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 72.51%, rgba(0, 0, 0, 0.81) 96.75%), url('/assets/images/noticia-yun-li-album.png') lightgray 50% / cover no-repeat;  /*OBS o JOAO colocou "/assets/images/noticia-yun-li-album.png" dentro do url, que antes estava para inserir a imagem ainda*/
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 72.51%, rgba(0, 0, 0, 0.81) 96.75%),
+    url('/assets/images/noticia-yun-li-album.png')
+    lightgray 50% / cover no-repeat;
 }
 
-.pagina-inicial-titulo-noticia-nivel-primario {
+.imagem-noticia-primaria h1 {
     display: flex;
-    padding: var(--tamanho-fonte-logo, 50px);
+    padding: 50px;
     align-items: center;
-    align-self: stretch;
-    flex: 1 0 0;
-    align-self: stretch;
     color: #F9F9F9;
     font-family: "PT Sans";
     font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
-    padding-top: 35%; /*o JOAO ADICIOUNOU ESSA LINHA DE CODIGO, ELA CONTROLA O TEXTO PARA FICAR CERTINHO DENTRO DA IMAGME*/
 }
 
-
-
-/* as tres noticias abaixo da noticia principal*/
-.pagina-inicial-sessao-noticias-terciarias {
-    display: flex;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 40px 30px;
+hr {
     align-self: stretch;
-    flex-wrap: wrap;
-
+    margin: 40px 0;
 }
 
-.pagina-inicial-noticia-terciaria {
+/* As três notícias abaixo da noticia principal */
+.sessao-noticias-terciarias {
     display: flex;
-    min-width: 300px;
+    flex-wrap: wrap;
+}
+
+.sessao-noticias-terciarias article {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
     flex: 1 0 0;
-    max-height: fit-content;/*o JOAO ADICIONOU ESSA LINHA DE CODIGO*/
+    min-width: 300px;
 }
 
-/* as duas noticias abaixo*/
-.pagina-inicial-sessao-noticias-secundarias {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
-    align-self: stretch;
+.noticia-terciaria img {
+    width: 100%;
 }
 
-.pagina-inicial-noticia-secundaria {
+/* As duas notícias abaixo */
+.noticia-secundaria {
     display: flex;
     height: 299px;
     min-width: 300px;
@@ -91,12 +65,12 @@ hr {
     transition: all 0.2s;
 }
 
-.pagina-inicial-noticia-secundaria:hover {
+.noticia-secundaria:hover {
     transform: scale(1.005);
     transition-duration: 0.2s, 0.2s;
 }
 
-.pagina-inicial-artigo-noticia-secundaria {
+.artigo-noticia-secundaria {
     display: flex;
     min-width: 300px;
     flex-direction: column;
@@ -152,7 +126,7 @@ hr {
     line-height: normal;
 }
 
-.pagina-inicial-artigo-noticia-terciaria {
+.artigo-noticia-terciaria {
     display: flex;
     padding: 0px 5px;
     flex-direction: column;
@@ -161,7 +135,7 @@ hr {
     align-self: stretch;
 }
 
-.pagina-inicial-noticia-terciaria {
+.noticia-terciaria {
     display: flex;
     height: 353px;
     min-width: 300px;
@@ -171,7 +145,7 @@ hr {
     flex: 1 0 0;
 }
 
-.pagina-inicial-sessao-noticias-terciarias {
+.sessao-noticias-terciarias {
     display: flex;
     align-items: flex-start;
     align-content: flex-start;
@@ -180,7 +154,7 @@ hr {
     flex-wrap: wrap;
 }
 
-.pagina-inicial-medio-container {
+.medio-container {
     display: flex;
     min-width: 300px;
     flex-direction: column;
@@ -191,7 +165,7 @@ hr {
 
 
 /* Div do Últimas Notícias */
-.pagina-inicial-titulo-aside {
+.titulo-aside {
     color: #2F3134;
     text-align: center;
     font-family: "PT Sans";
@@ -203,7 +177,7 @@ hr {
     padding-bottom: 30px;
 }
 
-.pagina-inicial-aside {
+.aside {
     display: flex;
     min-width: 300px;
     max-width: 450px;
@@ -214,7 +188,7 @@ hr {
     padding-left: 45px; /*JOAO ADICIONOU ESSA LINHA*/
 }
 
-.pagina-inicial-noticias-aside {
+.noticias-aside {
     display: flex;
     align-items: flex-start;
     align-content: flex-start;
@@ -223,16 +197,16 @@ hr {
     flex-wrap: wrap;
 }
 
-.pagina-inicial-noticia-aside {
+.noticia-aside {
     display: flex;
     min-width: 300px;
     align-items: flex-start;
-    gap: 30px;
+    gap: 10px;
     flex: 1 0 0;
     padding-bottom: 30px;
 }
 
-.pagina-inicial-titulos-noticias-nivel-terciario {
+.titulos-noticias-nivel-terciario {
     flex: 1 0 0;
     align-self: stretch;
     color: #FF5D36;
