@@ -53,21 +53,18 @@ hr {
 }
 
 /* As duas notícias abaixo */
+
+.sessao-noticias-secundarias {
+    display: grid;
+    row-gap: 30px;
+}
+
 .noticia-secundaria {
     display: flex;
     height: 299px;
     min-width: 300px;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 15px 30px;
-    align-self: stretch;
+    gap: 20px;
     flex-wrap: wrap;
-    transition: all 0.2s;
-}
-
-.noticia-secundaria:hover {
-    transform: scale(1.005);
-    transition-duration: 0.2s, 0.2s;
 }
 
 .artigo-noticia-secundaria {
@@ -242,6 +239,13 @@ hr {
     background-color: #F9F9F9;
 }
 
+.container-botoes-paginacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
 .link-paginacao {
     color: #F9F9F9;
     font-family: "PT Sans";
@@ -274,4 +278,12 @@ hr {
     border-radius: 4px;
     background: #FF5D36;
     border-style: none; /*OBS JOAO ADICIONOU ESSA LINHA DE CODIGO*/
+}
+
+.transform-scale {
+    transition: 0.2s;
+}
+
+.transform-scale:hover {
+    transform: scale(1.005);
 }
