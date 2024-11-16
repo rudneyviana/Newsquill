@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
     <title>Adição de Notícia - Newsquill</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
@@ -31,34 +31,38 @@
         </div>
     </header>
     <main>
-        <section class="adicao-noticia-secao">
+        <section class="sessao-adicionar-noticia">
             <h1>Adicionar Nova Notícia</h1>
             <form>
-                <div class="adicao-noticia-divisao-titulo">
-                    <label for="inTitulo" class="adicao-noticia-titulo">Título:</label>
-                    <input type="text" id="inTitulo" class="input-adicao-noticia-titulo" placeholder="Adicione o título da notícia">
+                <div class="row">
+                    <div class="campo-titulo">
+                        <label for="inTitulo" class="adicao-noticia-titulo">Título:</label>
+                        <input type="text" id="inTitulo" class="input-adicao-noticia" placeholder="Adicione o título da notícia">
                 </div>
                 <div>
                     <label for="inAutor">Autor:</label>
-                    <input type="text" id="inAutor" class="input-adicao-noticia-autor" placeholder="Adicione o autor da notícia">
+                    <input type="text" id="inAutor" class="input-adicao-noticia" placeholder="Adicione o autor da notícia">
                 </div>
+            </div>
+            <div class="row">
                 <div>
-                    <label for="inData">Data:</label>
+                    <label for="inData">Data:</label><br>
                     <input type="date" id="inData" placeholder="Adicione o data da notícia">
                 </div>
                 <div>
-                    <label for="inImagem">Imagem:</label>
+                    <label for="inImagem">Imagem:</label><br>
                     <input type="file" id="inImagem" placeholder="Adicione o imagem da notícia">
                 </div>
-                <div>
+            </div>
+                <div class="campo-conteudo-noticia">
                     <label for="conteudoNoticia">Conteúdo:</label>
                     <textarea name="Conteúdo Noticia" id="conteudoNoticia" placeholder="Adicione o conteúdo da notícia"></textarea>
                 </div>
-                <div>
-                    <button type="submit">Adicionar</button>
+                <div class="botao-enviar-noticia">
+                    <input type="submit" value="Adicionar" class="button">
                 </div>
             </form>
-        </section>
+        </section>l
     </main>
     <footer class="rodape">
         <p class="marca-d-agua">© 2024 Newsquill | Todos os direitos reservados.</p>
