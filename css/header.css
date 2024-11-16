@@ -3,36 +3,27 @@
     padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
-    align-self: stretch;
     background: linear-gradient(90deg, #F65C2A 0%, #ED451D 71.09%, #B91B28 142.19%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.mini-container-nav {
+.container-nav {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    gap: 10px;
     flex: 1 0 0;
 }
 
 .navbar {
     display: flex;
-    max-width: 421px;
-    align-items: center;
     gap: 20px;
-    align-self: stretch;
 }
 
 .nav-link {
     color: #FAFAFA;
     font-family: "PT Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -40,67 +31,51 @@
     text-decoration: underline;
 }
 
-.mini-container-logo {
+.container-logo {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     flex: 1 0 0;
 }
 
 .logo {
-    width: 207px;
-    height: 74px;
-    min-width: 207px;
-    min-height: 74px;
+    width: 208px;
 }
 
-.mini-container-busca {
+.container-pesquisa {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
-    gap: 10px;
     flex: 1 0 0;
 }
 
 .barra-pesquisa {
     display: flex;
-    width: 180px;
-    min-width: 175px;
-    max-width: 180px;
-    padding: 15px;
-    align-items: center;
-    gap: 20px;
+    /* width: 180px; */
     border-radius: 8px;
     background: #A9371B;
 }
 
 .botao-pesquisar {
-    width: 21px;
-    height: 21px;
-    flex-shrink: 0;
-    /* FALTA arrumar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 0 0 8px;
+    width: 71px;
+    height: 51px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .barra-pesquisa-pesquisar {
-    color: #FAFAFA;
     width: 100%;
+    padding: 0 10px 0 0;
+    -webkit-text-fill-color: #FAFAFA;
+    opacity: 0.6;
     font-family: "PT Sans";
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    opacity: 0.6;
-    /* FALTA arrumar */
     background-color: transparent;
     border: none;
-}
-
-/* FALTA arrumar */
-.barra-pesquisa-pesquisar::placeholder {
-    color: white;
+    outline: 0;
 }
