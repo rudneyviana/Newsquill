@@ -33,7 +33,7 @@
     </header>
     <main class="container">
         <div class="medio-container">
-            <div class="imagem-noticia-primaria">
+            <div class="noticia-primaria">
                 <h1>Yun Li Anuncia Lançamento do Álbum "Bons Tempos" para 17 de Agosto com Trailer Oficial</h1>
             </div>
 
@@ -101,46 +101,56 @@
         </div>
         <aside class="aside">
             <h2 class="titulo-aside">Últimas Notícias</h2>
-            <div class="noticias-aside">
-                <section class="noticia-aside transform-scale">
+            <section class="sessao-noticias-aside">
+                <div class="noticia-aside transform-scale">
                     <img src="./assets/images/noticia-exposicao-arte-contemporanea.png" alt="Corredor com artes expostas nas paredes">
-                    <h3 class="titulos-noticias-nivel-terciario"><a class="titulos-noticias-nivel-terciario" href="#">Exposição Internacional de Arte Contemporânea Atrai Visitantes de Todo o Mundo</a></h3>
-                </section>
-                <section class="noticia-aside transform-scale">
+                    <h3 class="titulos-noticias-nivel-terciario">
+                        <a class="titulos-noticias-nivel-terciario" href="#">Exposição Internacional de Arte Contemporânea Atrai Visitantes de Todo o Mundo</a>
+                    </h3>
+                </div>
+                <div class="noticia-aside transform-scale">
                     <img src="./assets/images/noticia-preservacao-biodeiversidade.png" alt="Paisagem de visão aérea do topo de florestas">
-                    <h3 class="titulos-noticias-nivel-terciario"><a class="titulos-noticias-nivel-terciario" href="#">Nova Política Nacional de Preservação da Biodiversidade Entra em Vigor</a></h3>
-                </section>
-                <section class="noticia-aside transform-scale">
+                    <h3 class="titulos-noticias-nivel-terciario">
+                        <a class="titulos-noticias-nivel-terciario" href="#">Nova Política Nacional de Preservação da Biodiversidade Entra em Vigor</a>
+                    </h3>
+                </div>
+                <div class="noticia-aside transform-scale">
                     <img src="./assets/images/noticia-transporte-publico-sustentavel.png" alt="Foto de ônibus azul">
-                    <h3 class="titulos-noticias-nivel-terciario"><a class="titulos-noticias-nivel-terciario" href="#">Sistema de Transporte Público Sustentável Inaugurado em Grande Cidade</a></h3>
-                </section>
-                <section class="noticia-aside transform-scale">
+                    <h3 class="titulos-noticias-nivel-terciario">
+                        <a class="titulos-noticias-nivel-terciario" href="#">Sistema de Transporte Público Sustentável Inaugurado em Grande Cidade</a>
+                    </h3>
+                </div>
+                <div class="noticia-aside transform-scale">
                     <img src="./assets/images/noticia-reestruturacao-industriais.png" alt="Foto de visão aérea de um prédio">
-                    <h3 class="titulos-noticias-nivel-terciario"><a class="titulos-noticias-nivel-terciario" href="/pages/detalhe-noticia.html">Reestruturação de Setores Industriais Visa Impulsionar a Economia Nacional</a></h3>
-                </section>
-                <section class="noticia-aside transform-scale">
+                    <h3 class="titulos-noticias-nivel-terciario">
+                        <a class="titulos-noticias-nivel-terciario" href="/pages/detalhe-noticia.html">Reestruturação de Setores Industriais Visa Impulsionar a Economia Nacional</a>
+                    </h3>
+                </div>
+                <div class="noticia-aside transform-scale">
                     <img src="./assets/images/noticia-computacao-quantica.png" alt="Corredor com super computador">
-                    <h3 class="titulos-noticias-nivel-terciario"><a class="titulos-noticias-nivel-terciario" href="#">Avanços em Computação Quântica Abertos ao Público com Novo Super computador</a></h3>
-                </section>
-            </div>
+                    <h3 class="titulos-noticias-nivel-terciario">
+                        <a class="titulos-noticias-nivel-terciario" href="#">Avanços em Computação Quântica Abertos ao Público com Novo Super computador</a>
+                    </h3>
+                </div>
+            </section>
         </aside>
     </main>
     <nav class="paginacao">
-        <button class="icon-setas">
+        <button onclick="previewsPage()" class="icon-setas">
             <img src="./assets/svg/seta-esquerda.svg" alt="Seta esquerda da paginação">
         </button>
         <div class="container-botoes-paginacao">
-            <a class="link-paginacao botao-paginacao-selecionado" href="./index.html">
+            <a class="link-paginacao link-paginacao-selecionado" href="./index.html">
                 <span>1</span>
             </a>
-            <a class="link-paginacao botao-paginacao" href="./pages/pagina-02.html">
+            <a class="link-paginacao" href="./pages/pagina-02.html">
                 <span>2</span>
             </a>
-            <a class="link-paginacao botao-paginacao" href="./pages/pagina-03.html">
+            <a class="link-paginacao" href="./pages/pagina-03.html">
                 <span>3</span>
             </a>
         </div>
-        <button class="icon-setas">
+        <button onclick="nextPage()" class="icon-setas">
             <img src="./assets/svg/seta-direta.svg" alt="Seta direita da paginação">
         </button>
     </nav>
