@@ -60,7 +60,7 @@
     background: #A9371B;
 }
 
-.botao-pesquisar {
+.barra-pesquisa___botao {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,15 @@
     cursor: pointer;
 }
 
-.barra-pesquisa-pesquisar {
+.barra-pesquisa___abreviacao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-pesquisa___campo {
     width: 100%;
     padding: 0 10px 0 0;
     -webkit-text-fill-color: #DDAFA4;
