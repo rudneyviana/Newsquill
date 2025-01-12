@@ -1,3 +1,19 @@
 :root {
-    --cor-laranja-01: #FF5D36;
+    --branco: #FAFAFA;
+    --cinza-100: #D9D9D9;
+    --cinza-200: #ADADAD;
+    --cinza-300: #989898;
+    --cinza-400: #707070;
+    --cinza-500: #6b6b6b;
+    --cinza-600: #454545;
+    --cinza-700: #3B3B3B;
+    --cinza-800: #2F3134;
+    --laranja-100: #DDAFA4;
+    --laranja-400: #FF5D36;
+    --laranja-500: #ED451D;
+    --laranja-700: #A9371B;
+    --laranja-gradient: linear-gradient(90deg, #F65C2A 0%, #ED451D 71.09%, #B91B28 142.19%);
+    --azul-500: #3863cf;
+    --azul-600: #265dc4;
+    --azul-700: #1F52B0;
 }
